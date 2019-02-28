@@ -1,0 +1,206 @@
+{% extends "base/__base.html" %}
+
+{% load staticfiles %}
+
+{% load mptt_tags %}
+
+{% block Style_sheets %}
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+<!-- END PAGE LEVEL PLUGINS -->
+
+
+{% endblock Style_sheets %}    
+
+{% block Content_Area %}
+      
+    <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12">
+                <h4 class="header-line">Category Tree Using MPTT</h4> 
+                <h5>Drag to change nodes | Right Click to create, rename & delete nodes</h5>               
+            </div>
+        </div>
+    
+    <div id="tree">    
+	</div>
+                      
+    </div>
+    
+  
+{% endblock Content_Area %}  
+
+
+
+
+{% block Java_Scripts %}
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+
+<script>
+// get all tree nodes after page completely loaded	 
+$(function() {
+		    $.ajax({
+		        async : true,
+		        type : "GET",
+		        url : "/inventory/get_tree_ajax/",
+		        dataType : "json",    
+
+		        success : function(json) {
+		        	console.log("Call trigger")
+		       
+		        	var dataset = json.content
+		        	console.log(dataset)
+		            createJSTrees(dataset);
+		        },    
+
+		        error : function(xhr, ajaxOptions, thrownError) {
+		            alert(xhr.status);
+		            alert(thrownError);
+		        }
+		    });
+		});	 
+	 
+	 
+function createJSTrees(jsonData) {
+	 	 
+	 var parsedJson = $.parseJSON(jsonData);
+	 
+	 
+	 $("#tree").jstree({
+         core: {
+             themes: {
+                 responsive: !1
+             },
+             check_callback: !0,         
+         data : parsedJson  
+	 }, 
+	 // create context menu to add, rename, delete nodes
+	 contextmenu : {
+         "items": function ($node) {
+             var tree = $("#tree").jstree(true);
+             return {
+                 "Create": {
+                     "separator_before": false,
+                     "separator_after": true,
+                     "label": "Create",
+                     action: function (obj) {
+                                 $node = tree.create_node($node, { text: 'New File', type: 'default' });
+                                 tree.edit($node);
+                                 tree.deselect_all();
+                                 tree.select_node($node);
+                             }
+                     
+                 },
+                 "Rename": {
+                     "separator_before": true,
+                     "separator_after": true,
+                     "label": "Rename",
+                     "action": function (obj) {
+                         tree.edit($node);     
+                         //console.log("node rename")
+                         //console.log($node)
+                     }
+                 },
+                 "Remove": {
+                     "separator_before": false,
+                     "separator_after": false,
+                     "label": "Remove",
+                     "action": function (obj) {
+                         tree.delete_node($node);
+                     }
+                 }
+             };
+         }
+	 },
+   				
+            
+         types: {
+             "default": {
+                 icon: "fa fa-folder icon-state-warning icon-lg"
+             },
+             file: {
+                 icon: "fa fa-file icon-state-warning icon-lg"
+             }
+         },
+         state: { 
+             key: "demo2"
+         },
+         plugins: ["contextmenu", "dnd", "state", "types"]
+     })
+
+ // trigger move node event    
+ $('#tree').on("move_node.jstree", function (e, data) {
+	  
+	  $.ajax({
+	        async : true,
+	        type : "POST",
+	        url : "/inventory/move_node_ajax/",
+	        dataType : "json",    
+			data : {'node_id': data.node.id, 'parent_id': data.node.parent, csrfmiddlewaretoken: '{{ csrf_token }}'},
+	        success : function(json) {
+	        	console.log("move trigger")
+	        },    
+
+	        error : function(xhr, ajaxOptions, thrownError) {
+	            alert(xhr.status);
+	            alert(thrownError);
+	        }
+	    });
+	});
+	 
+// trigger rename node event
+$('#tree').on("rename_node.jstree", function (e, data) {
+    console.log("Rename")
+    console.log(data.node)
+	$.ajax({
+        async : true,
+        type : "POST",
+        url : "/inventory/insert_node_ajax/",
+        dataType : "json",   
+        data : {'node_id': data.node.id, 'parent_id': data.node.parent, 'node_text': data.node.text, csrfmiddlewaretoken: '{{ csrf_token }}'},
+
+        success : function(json) {
+            console.log("Call trigger")
+            var result_id = json.content
+            console.log(result_id)
+            if (result_id != '')
+            {
+                $('#tree').jstree(true).set_id(data.node,result_id);  
+            }
+        },    
+
+        error : function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status);
+            alert(thrownError);
+        }
+    });
+});
+    
+// trigger node delete event
+$('#tree').on("delete_node.jstree", function (e, data) {
+	console.log("Delete")
+    $.ajax({
+        async : true,
+        type : "POST",
+        url : "/inventory/delete_node_ajax/",
+        dataType : "json",   
+        data : {'node_id': data.node.id, 'parent_id': data.node.parent, csrfmiddlewaretoken: '{{ csrf_token }}'},
+
+        success : function(json) {
+        	console.log("Call trigger")
+        },    
+
+        error : function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status);
+            alert(thrownError);
+        }
+    });
+});
+
+ }
+ 
+</script>
+  
+{% endblock %}

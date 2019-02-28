@@ -1,0 +1,2443 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "inventory",
+        "model": "category"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lctojyp6n5xw4rtlyhf5ezps4n7sogt8",
+    "fields": {
+        "session_data": "MDNjY2U3MzJmMGY3YjQxM2I2MDEyOTdmM2VlYjQ1MjRlNmI1Mzk5Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0ODQ4ODIxM2FlYzRhNTYwZGJiNTJhMzU0MTMwNmI0MzQzOTI3MWM4In0=",
+        "expire_date": "2019-03-05T20:38:13.946Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nps5ll1fa6c86bhqs7rtci0o2uah1hzb",
+    "fields": {
+        "session_data": "MDNjY2U3MzJmMGY3YjQxM2I2MDEyOTdmM2VlYjQ1MjRlNmI1Mzk5Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0ODQ4ODIxM2FlYzRhNTYwZGJiNTJhMzU0MTMwNmI0MzQzOTI3MWM4In0=",
+        "expire_date": "2019-03-05T20:38:13.162Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rcluqzbcbx77m9avu1jlwr87j9elr7h9",
+    "fields": {
+        "session_data": "MDNjY2U3MzJmMGY3YjQxM2I2MDEyOTdmM2VlYjQ1MjRlNmI1Mzk5Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0ODQ4ODIxM2FlYzRhNTYwZGJiNTJhMzU0MTMwNmI0MzQzOTI3MWM4In0=",
+        "expire_date": "2019-03-07T10:31:48.686Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rykk5czf3wm9vmqvubs42ytz1o338dsq",
+    "fields": {
+        "session_data": "MDNjY2U3MzJmMGY3YjQxM2I2MDEyOTdmM2VlYjQ1MjRlNmI1Mzk5Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0ODQ4ODIxM2FlYzRhNTYwZGJiNTJhMzU0MTMwNmI0MzQzOTI3MWM4In0=",
+        "expire_date": "2019-03-11T14:03:52.360Z"
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 10,
+    "fields": {
+        "name": "Aerial",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 14,
+        "tree_id": 1,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 11,
+    "fields": {
+        "name": "Acrobatics",
+        "description": "",
+        "parent": 10,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 12,
+    "fields": {
+        "name": "Hammock",
+        "description": "",
+        "parent": 10,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 13,
+    "fields": {
+        "name": "Kids",
+        "description": "",
+        "parent": 10,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 14,
+    "fields": {
+        "name": "Lycra",
+        "description": "",
+        "parent": 10,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 15,
+    "fields": {
+        "name": "Silks",
+        "description": "",
+        "parent": 10,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 16,
+    "fields": {
+        "name": "Yoga",
+        "description": "",
+        "parent": 10,
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 1,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 17,
+    "fields": {
+        "name": "Barre",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 12,
+        "tree_id": 2,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 18,
+    "fields": {
+        "name": "Barre yoga",
+        "description": "",
+        "parent": 17,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 19,
+    "fields": {
+        "name": "Cardio Barre",
+        "description": "",
+        "parent": 17,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 20,
+    "fields": {
+        "name": "Fundamentals",
+        "description": "",
+        "parent": 17,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 21,
+    "fields": {
+        "name": "Prenatal",
+        "description": "",
+        "parent": 17,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 22,
+    "fields": {
+        "name": "General",
+        "description": "",
+        "parent": 17,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 2,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 23,
+    "fields": {
+        "name": "Bootcamp",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 16,
+        "tree_id": 3,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 24,
+    "fields": {
+        "name": "AMRAP (As many reps as possible)",
+        "description": "",
+        "parent": 23,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 25,
+    "fields": {
+        "name": "Bodyweight",
+        "description": "",
+        "parent": 23,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 26,
+    "fields": {
+        "name": "Equipment based",
+        "description": "",
+        "parent": 23,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 27,
+    "fields": {
+        "name": "HIIT (High-intensity interval training)",
+        "description": "",
+        "parent": 23,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 28,
+    "fields": {
+        "name": "Military style",
+        "description": "",
+        "parent": 23,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 29,
+    "fields": {
+        "name": "Outdoor",
+        "description": "",
+        "parent": 23,
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 30,
+    "fields": {
+        "name": "TRX (Total body resistance exercise)",
+        "description": "",
+        "parent": 23,
+        "lft": 14,
+        "rght": 15,
+        "tree_id": 3,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 31,
+    "fields": {
+        "name": "Boxing / kickboxing",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 14,
+        "tree_id": 4,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 32,
+    "fields": {
+        "name": "Boxing",
+        "description": "",
+        "parent": 31,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 33,
+    "fields": {
+        "name": "Kickboxing",
+        "description": "",
+        "parent": 31,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 34,
+    "fields": {
+        "name": "Power boxing",
+        "description": "",
+        "parent": 31,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 35,
+    "fields": {
+        "name": "Power kickboxing",
+        "description": "",
+        "parent": 31,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 36,
+    "fields": {
+        "name": "Sparring",
+        "description": "",
+        "parent": 31,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 37,
+    "fields": {
+        "name": "Wrestling",
+        "description": "",
+        "parent": 31,
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 4,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 38,
+    "fields": {
+        "name": "Circuit training",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 14,
+        "tree_id": 5,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 39,
+    "fields": {
+        "name": "Core",
+        "description": "",
+        "parent": 38,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 40,
+    "fields": {
+        "name": "Full body",
+        "description": "",
+        "parent": 38,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 41,
+    "fields": {
+        "name": "Kettlebell",
+        "description": "",
+        "parent": 38,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 42,
+    "fields": {
+        "name": "Lower body",
+        "description": "",
+        "parent": 38,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 43,
+    "fields": {
+        "name": "Plyometrics",
+        "description": "",
+        "parent": 38,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 44,
+    "fields": {
+        "name": "Upper body",
+        "description": "",
+        "parent": 38,
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 5,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 45,
+    "fields": {
+        "name": "Crossfit",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 8,
+        "tree_id": 6,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 46,
+    "fields": {
+        "name": "Competition",
+        "description": "",
+        "parent": 45,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 47,
+    "fields": {
+        "name": "Olympic lifting",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 2,
+        "tree_id": 10,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 48,
+    "fields": {
+        "name": "Open gym",
+        "description": "",
+        "parent": 45,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 49,
+    "fields": {
+        "name": "WOD (Workout of the day)",
+        "description": "",
+        "parent": 45,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 6,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 50,
+    "fields": {
+        "name": "Cycling",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 4,
+        "tree_id": 7,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 51,
+    "fields": {
+        "name": "Rhythm cycling",
+        "description": "",
+        "parent": 50,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 7,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 52,
+    "fields": {
+        "name": "Dance",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 14,
+        "tree_id": 8,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 53,
+    "fields": {
+        "name": "Ballet",
+        "description": "",
+        "parent": 52,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 54,
+    "fields": {
+        "name": "Ballroom",
+        "description": "",
+        "parent": 52,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 55,
+    "fields": {
+        "name": "Belly dance",
+        "description": "",
+        "parent": 52,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 56,
+    "fields": {
+        "name": "Contemporary",
+        "description": "",
+        "parent": 52,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 57,
+    "fields": {
+        "name": "Drumming",
+        "description": "",
+        "parent": 52,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 58,
+    "fields": {
+        "name": "Hip hop",
+        "description": "",
+        "parent": 52,
+        "lft": 12,
+        "rght": 13,
+        "tree_id": 8,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 59,
+    "fields": {
+        "name": "Gym classes",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 10,
+        "tree_id": 9,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 60,
+    "fields": {
+        "name": "Aquatics",
+        "description": "",
+        "parent": 59,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 61,
+    "fields": {
+        "name": "Cardio",
+        "description": "",
+        "parent": 59,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 62,
+    "fields": {
+        "name": "Interval training",
+        "description": "",
+        "parent": 59,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 63,
+    "fields": {
+        "name": "Zumba",
+        "description": "",
+        "parent": 59,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 9,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 66,
+    "fields": {
+        "name": "Pilates",
+        "description": "",
+        "parent": null,
+        "lft": 1,
+        "rght": 12,
+        "tree_id": 11,
+        "level": 0
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 67,
+    "fields": {
+        "name": "Contemporary Pilates",
+        "description": "",
+        "parent": 66,
+        "lft": 2,
+        "rght": 3,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 68,
+    "fields": {
+        "name": "Equipment",
+        "description": "",
+        "parent": 66,
+        "lft": 4,
+        "rght": 5,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 69,
+    "fields": {
+        "name": "Lagree",
+        "description": "",
+        "parent": 66,
+        "lft": 6,
+        "rght": 7,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 70,
+    "fields": {
+        "name": "Mat",
+        "description": "",
+        "parent": 66,
+        "lft": 8,
+        "rght": 9,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 71,
+    "fields": {
+        "name": "Piyo",
+        "description": "",
+        "parent": 66,
+        "lft": 10,
+        "rght": 11,
+        "tree_id": 11,
+        "level": 1
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add category",
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change category",
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete category",
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$xjEfFlPzvHGn$E61+1LfxPl+y6pmuFA9KWzvXHBfrQdaG8n0L7yFVIi0=",
+        "last_login": "2019-02-25T14:03:52.355Z",
+        "is_superuser": true,
+        "username": "sarath",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-02-19T18:41:54.775Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-02-19T20:39:08.621Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "A TYPE DRUG",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-02-19T20:39:33.717Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "A 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-02-19T20:39:54.627Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "B TYPE DRUG",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-02-19T20:40:10.717Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "B 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-02-21T10:32:41.101Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "A3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"parent\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-02-21T10:57:07.800Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "8",
+        "object_repr": "DOC 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-02-21T10:57:25.985Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "9",
+        "object_repr": "DOC 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-02-25T14:04:14.696Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "None",
+        "object_repr": "A TYPE DRUG",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-02-25T14:04:14.707Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "None",
+        "object_repr": "B TYPE DRUG",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-02-25T14:04:14.717Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "None",
+        "object_repr": "DOC 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-02-25T14:24:46.664Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "10",
+        "object_repr": "Aerial",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-02-25T14:25:11.557Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "11",
+        "object_repr": "Acrobatics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-02-25T14:25:45.571Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "12",
+        "object_repr": "Hammock",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-02-25T14:25:55.063Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "13",
+        "object_repr": "Kids",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-02-25T14:26:33.040Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "14",
+        "object_repr": "Lycra",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-02-25T14:26:50.493Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "15",
+        "object_repr": "Silks",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-02-25T14:26:57.655Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "16",
+        "object_repr": "Yoga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-02-25T14:29:02.637Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "17",
+        "object_repr": "Barre",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-02-25T14:29:11.709Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "18",
+        "object_repr": "Barre yoga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-02-25T14:29:22.790Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "19",
+        "object_repr": "Cardio Barre",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2019-02-25T14:29:32.193Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "20",
+        "object_repr": "Fundamentals",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2019-02-25T14:29:44.447Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "21",
+        "object_repr": "Prenatal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2019-02-25T14:29:55.443Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "22",
+        "object_repr": "General",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2019-02-25T14:30:11.215Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "23",
+        "object_repr": "Bootcamp",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2019-02-25T14:30:21.300Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "24",
+        "object_repr": "AMRAP (As many reps as possible)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2019-02-25T14:30:45.754Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "25",
+        "object_repr": "Bodyweight",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2019-02-25T14:31:10.647Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "26",
+        "object_repr": "Equipment based",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2019-02-25T14:31:37.235Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "27",
+        "object_repr": "HIIT (High-intensity interval training)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2019-02-25T14:31:51.338Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "28",
+        "object_repr": "Military style",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2019-02-25T14:32:07.747Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "29",
+        "object_repr": "Outdoor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2019-02-25T14:32:21.959Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "30",
+        "object_repr": "TRX (Total body resistance exercise)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2019-02-25T14:32:38.502Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "31",
+        "object_repr": "Boxing / kickboxing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2019-02-25T14:32:51.598Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "32",
+        "object_repr": "Boxing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2019-02-25T14:33:29.714Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "33",
+        "object_repr": "Kickboxing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2019-02-25T14:33:44.217Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "34",
+        "object_repr": "Power boxing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2019-02-25T14:33:55.071Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "35",
+        "object_repr": "Power kickboxing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2019-02-25T14:34:05.464Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "36",
+        "object_repr": "Sparring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2019-02-25T14:34:24.274Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "37",
+        "object_repr": "Wrestling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2019-02-25T14:34:40.700Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "38",
+        "object_repr": "Circuit training",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2019-02-25T14:35:12.343Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "39",
+        "object_repr": "Core",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2019-02-25T14:35:31.258Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "40",
+        "object_repr": "Full body",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2019-02-25T14:35:49.373Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "41",
+        "object_repr": "Kettlebell",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2019-02-25T14:36:01.757Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "42",
+        "object_repr": "Lower body",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2019-02-25T14:36:12.763Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "43",
+        "object_repr": "Plyometrics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2019-02-25T14:36:47.101Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "44",
+        "object_repr": "Upper body",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2019-02-25T14:37:02.195Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "45",
+        "object_repr": "Crossfit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2019-02-25T14:37:10.802Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "46",
+        "object_repr": "Competition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2019-02-25T14:37:20.033Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "47",
+        "object_repr": "Olympic lifting",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2019-02-25T14:37:32.530Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "48",
+        "object_repr": "Open gym",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2019-02-25T14:37:45.667Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "49",
+        "object_repr": "WOD (Workout of the day)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2019-02-25T14:37:56.600Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "50",
+        "object_repr": "Cycling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2019-02-25T14:38:16.073Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "51",
+        "object_repr": "Rhythm cycling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2019-02-25T14:38:27.862Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "52",
+        "object_repr": "Dance",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2019-02-25T14:38:35.750Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "53",
+        "object_repr": "Ballet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2019-02-25T14:38:55.752Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "54",
+        "object_repr": "Ballroom",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2019-02-25T14:39:04.818Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "55",
+        "object_repr": "Belly dance",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2019-02-25T14:40:28.720Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "56",
+        "object_repr": "Contemporary",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2019-02-25T14:40:37.304Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "57",
+        "object_repr": "Drumming",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2019-02-25T14:40:56.750Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "58",
+        "object_repr": "Hip hop",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2019-02-25T14:41:35.821Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "59",
+        "object_repr": "Gym classes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2019-02-25T14:41:43.675Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "60",
+        "object_repr": "Aquatics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2019-02-25T14:42:26.431Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "61",
+        "object_repr": "Cardio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2019-02-25T14:43:17.142Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "62",
+        "object_repr": "Interval training",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2019-02-25T14:43:31.112Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "63",
+        "object_repr": "Zumba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2019-02-25T14:44:02.103Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "64",
+        "object_repr": "Pilates",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2019-02-25T14:44:21.232Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "None",
+        "object_repr": "Pilates",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2019-02-25T14:44:35.810Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "65",
+        "object_repr": "Pilates",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2019-02-25T14:44:59.136Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "None",
+        "object_repr": "Pilates",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2019-02-25T14:45:13.891Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "66",
+        "object_repr": "Pilates",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2019-02-25T14:45:25.839Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "67",
+        "object_repr": "Contemporary Pilates",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2019-02-25T14:45:39.310Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "68",
+        "object_repr": "Equipment",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2019-02-25T14:45:51.135Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "69",
+        "object_repr": "Lagree",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2019-02-25T14:46:01.778Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "70",
+        "object_repr": "Mat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2019-02-25T14:46:11.078Z",
+        "user": [
+            "sarath"
+        ],
+        "content_type": [
+            "inventory",
+            "category"
+        ],
+        "object_id": "71",
+        "object_repr": "Piyo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

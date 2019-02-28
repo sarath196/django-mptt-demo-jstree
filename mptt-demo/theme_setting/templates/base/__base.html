@@ -1,0 +1,72 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Kmine Admin</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="{% static "assets/css/bootstrap.css" %}" rel="stylesheet" />
+    <!-- FONT AWESOME STYLE  -->
+    <link href="{% static "assets/css/font-awesome.css" %}" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="{% static "assets/css/style.css" %}" rel="stylesheet" />
+    <!-- DATATABLE STYLE  -->
+    <link href="{% static "assets/js/dataTables/dataTables.bootstrap.css" %}" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="{% static "assets/css/style.css" %}" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    
+    {% block Style_sheets %}
+
+	{% endblock Style_sheets %}
+</head>
+<body>
+   
+    		{% block Nav_bar %}
+	
+				{% include  "base/__menu.html" %}
+	
+           {% endblock Nav_bar %}
+        
+    <div class="content-wrapper">
+
+
+         {% block Content_Area %}
+            {% include "base/__bodycontent.html" %}
+         {% endblock Content_Area %}
+         
+    </div>
+
+          
+            
+          {% block Footer %}
+	
+				{% include  "base/__footer.html" %}
+	
+           {% endblock Footer %}
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="{% static "assets/js/jquery-1.10.2.js" %}"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="{% static "assets/js/bootstrap.js" %}"></script>
+    <!-- DATATABLE SCRIPTS  -->
+    <script src="{% static "assets/js/dataTables/jquery.dataTables.js" %}"></script>
+    <script src="{% static "assets/js/dataTables/dataTables.bootstrap.js" %}" ></script>
+    <!-- CUSTOM SCRIPTS  -->
+    
+    <!-- CUSTOM SCRIPTS  -->
+    <script src="{% static "assets/js/custom.js" %}"></script>  
+    
+    {% block Java_Scripts %}
+
+	{% endblock %}
+  
+</body>
+</html>
